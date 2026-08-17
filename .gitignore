@@ -1,0 +1,58 @@
+# Python bytecode, caches, and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Editors and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+._*
+*~
+*.swp
+
+# Credentials and private keys
+*.pem
+*.key
+*token*
+*plan.txt
+*credentials*
+
+# Raw and derived spatial-omics data
+data/*
+!data/README.md
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+*.mtx
+*.mtx.gz
+
+# Model checkpoints and dense numerical outputs
+*.pt
+*.pth
+*.ckpt
+*.npz
+checkpoints/
+logs/
+
+# Generated analyses and figures
+results/
+plot/
+
+# Local auxiliary working material
+humous/
