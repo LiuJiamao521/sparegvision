@@ -1,0 +1,62 @@
+project:
+  name: SpaRegVision
+  seed: 20260814
+  results_root: results
+task:
+  target: gene_spatial_reconstruction
+  predict_regulatory_link_probability: false
+  explicit_spatial_attribution: true
+  use_background_channel: true
+data:
+  min_enhancers_per_gene: 5
+  max_enhancers_per_gene: 32
+  scales: [0.0, 1.0, 2.0]
+  include_tissue_mask: true
+  include_spot_density: true
+  normalization: train_region_robust_p02_p98
+split:
+  primary: spatial_block
+  n_folds: 5
+  contiguous_test_regions: true
+  forbid_random_spot_split: true
+  secondary: leave_one_sample_out
+model:
+  enhancer_encoder: shared_cnn
+  gene_context_encoder: cnn
+  set_interaction: permutation_equivariant_attention
+  attribution_decoder: enhancer_specific_spatial_decoder
+  attribution_normalization: masked_softmax_with_background
+  hidden_dim: 128
+  attention_heads: 4
+  set_layers: 2
+  dropout: 0.1
+loss:
+  reconstruction: masked_huber
+  lambda_reconstruction: 1.0
+  lambda_ssim: 0.2
+  lambda_gradient: 0.1
+  lambda_attribution_tv: 0.02
+  lambda_attribution_entropy: 0.005
+  lambda_stability: 0.05
+training:
+  epochs: 200
+  batch_size_genes: 8
+  optimizer: adamw
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  early_stopping_patience: 25
+  gradient_clip_norm: 1.0
+baselines:
+  - spatial_mean
+  - best_single_enhancer
+  - nonnegative_elastic_net
+  - handcrafted_sparegvision
+  - global_weight_neural_control
+evaluation:
+  primary_metric: heldout_domain_r2
+  bootstrap_replicates: 1000
+  report_multiple_testing: true
+simulation:
+  scenarios: [single, redundant, complementary, spatial_complementary, partial_switching, unrelated_missing_factor]
+  retain_ground_truth_attribution: true
+

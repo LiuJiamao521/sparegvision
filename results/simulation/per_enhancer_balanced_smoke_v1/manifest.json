@@ -1,0 +1,32 @@
+{
+  "scenario": "spatial_complementary",
+  "seed": 20261044,
+  "shape": [
+    24,
+    32
+  ],
+  "best_epoch": 319,
+  "best_validation_loss": 0.24361194670200348,
+  "test_fold": 2,
+  "spatial_strength": 1.0,
+  "gate_enabled": true,
+  "calibration_mode": "nested_feature",
+  "internal_fold_layout": "checkerboard",
+  "calibrated_coefficients": [
+    1.0542892872224647,
+    0.8132744824821299,
+    0.0,
+    0.0
+  ],
+  "calibrated_intercept": 0.03157823766266421,
+  "gate_policy": "robust",
+  "gate_min_folds": 3,
+  "gate_min_mean_relative_gain": 0.002,
+  "gate_max_fold_relative_loss": 0.01,
+  "gate_mean_relative_gain": 0.5119887719529687,
+  "gate_worst_relative_gain": 0.418394639614141,
+  "attribution_weight": 1.0,
+  "safety_weight": 0.1,
+  "attribution_warmup_epochs": 100,
+  "device": "cpu"
+}

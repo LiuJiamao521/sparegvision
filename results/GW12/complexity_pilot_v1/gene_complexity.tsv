@@ -1,0 +1,3 @@
+gene	n_enhancers	n_core	n_regional_candidates	n_unsupported	n_supported_domains	regional_evidence_topk_sum	domain_diversity	complexity_score	mean_core_concordance	complexity_rank
+NEFM	20	0	0	20	0	0.0	0.0	0.0		1
+VIM	20	0	0	20	0	0.0	0.0	0.0		2

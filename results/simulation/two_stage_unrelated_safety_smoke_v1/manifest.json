@@ -1,0 +1,23 @@
+{
+  "scenario": "unrelated_missing_factor",
+  "seed": 20261004,
+  "shape": [
+    24,
+    32
+  ],
+  "best_epoch": 176,
+  "best_validation_loss": 0.03507049009203911,
+  "test_fold": 2,
+  "spatial_strength": 0.0,
+  "gate_enabled": false,
+  "gate_policy": "robust",
+  "gate_min_folds": 3,
+  "gate_min_mean_relative_gain": 0.002,
+  "gate_max_fold_relative_loss": 0.03,
+  "gate_mean_relative_gain": -0.16381990537047386,
+  "gate_worst_relative_gain": -0.44329917430877686,
+  "attribution_weight": 1.0,
+  "safety_weight": 0.1,
+  "attribution_warmup_epochs": 100,
+  "device": "cpu"
+}

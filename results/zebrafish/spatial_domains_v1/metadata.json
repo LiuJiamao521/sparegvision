@@ -1,0 +1,19 @@
+{
+  "dataset": "zebrafish_weMERFISH_6s_E1",
+  "n_cells_total": 22475,
+  "n_cells_valid_3d": 22281,
+  "n_cells_excluded": 194,
+  "method": "KMeans on per-axis standardized spatial_rescaled_z",
+  "n_domains": 6,
+  "domain_sizes": [
+    2781,
+    5502,
+    5263,
+    2517,
+    2867,
+    3351
+  ],
+  "seed": 20260814,
+  "n_init": 20,
+  "figure_contract": "3D overview plus XY/XZ/YZ orthogonal projections"
+}

@@ -1,0 +1,32 @@
+{
+  "scenario": "unrelated_missing_factor",
+  "seed": 20261024,
+  "shape": [
+    24,
+    32
+  ],
+  "best_epoch": 198,
+  "best_validation_loss": 0.28940796852111816,
+  "test_fold": 2,
+  "spatial_strength": 0.0,
+  "gate_enabled": false,
+  "calibration_mode": "nested_feature",
+  "internal_fold_layout": "checkerboard",
+  "calibrated_coefficients": [
+    0.0,
+    0.3595662908485769,
+    0.0,
+    0.0
+  ],
+  "calibrated_intercept": 0.03026428485194277,
+  "gate_policy": "robust",
+  "gate_min_folds": 3,
+  "gate_min_mean_relative_gain": 0.002,
+  "gate_max_fold_relative_loss": 0.01,
+  "gate_mean_relative_gain": -0.003978818624048247,
+  "gate_worst_relative_gain": -0.016507281964154928,
+  "attribution_weight": 1.0,
+  "safety_weight": 0.1,
+  "attribution_warmup_epochs": 100,
+  "device": "cpu"
+}

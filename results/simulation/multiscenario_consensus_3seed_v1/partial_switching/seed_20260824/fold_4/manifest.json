@@ -1,0 +1,13 @@
+{
+  "scenario": "partial_switching",
+  "seed": 20260824,
+  "shape": [
+    24,
+    32
+  ],
+  "best_epoch": 59,
+  "best_validation_loss": 0.007293103262782097,
+  "test_fold": 4,
+  "spatial_strength": 0.0,
+  "device": "cpu"
+}

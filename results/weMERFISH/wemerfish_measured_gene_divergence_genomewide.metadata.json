@@ -1,0 +1,13 @@
+{
+  "gene_set": "measured",
+  "n_measured_genes_in_rna": 495,
+  "n_measured_genes_in_gtf": 471,
+  "window_bp": 100000,
+  "exclude_tss_bp": 2000,
+  "significance_rule": "one-tailed positive Spearman p < 0.01",
+  "latent_state_rule": "raw RNA -> min-max -> two-state fit -> 3D kNN majority regularization",
+  "gene_rank_rule": "absolute_divergence_score = 0.6 * median_difference_structure_score + 0.4 * top3_mean_difference_structure_score",
+  "min_enhancers_for_rank": 5,
+  "out_gene_tsv": "/cluster2/huanglab/jiamao/Project/SpaRegVision/results/weMERFISH/wemerfish_measured_gene_divergence_genomewide.tsv",
+  "out_enhancer_tsv": "/cluster2/huanglab/jiamao/Project/SpaRegVision/results/weMERFISH/wemerfish_measured_enhancer_divergence_genomewide.tsv"
+}

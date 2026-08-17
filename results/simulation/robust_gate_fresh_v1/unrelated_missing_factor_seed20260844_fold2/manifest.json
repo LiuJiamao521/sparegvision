@@ -1,0 +1,20 @@
+{
+  "scenario": "unrelated_missing_factor",
+  "seed": 20260844,
+  "shape": [
+    24,
+    32
+  ],
+  "best_epoch": 20,
+  "best_validation_loss": 0.03198504447937012,
+  "test_fold": 2,
+  "spatial_strength": 0.0,
+  "gate_enabled": false,
+  "gate_policy": "robust",
+  "gate_min_folds": 3,
+  "gate_min_mean_relative_gain": 0.002,
+  "gate_max_fold_relative_loss": 0.01,
+  "gate_mean_relative_gain": -0.026499928906559944,
+  "gate_worst_relative_gain": -0.059644170105457306,
+  "device": "cpu"
+}

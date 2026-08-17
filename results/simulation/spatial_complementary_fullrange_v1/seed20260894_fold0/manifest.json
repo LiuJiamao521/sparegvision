@@ -1,0 +1,20 @@
+{
+  "scenario": "spatial_complementary",
+  "seed": 20260894,
+  "shape": [
+    24,
+    32
+  ],
+  "best_epoch": 79,
+  "best_validation_loss": 0.0027181708719581366,
+  "test_fold": 0,
+  "spatial_strength": 0.0,
+  "gate_enabled": false,
+  "gate_policy": "robust",
+  "gate_min_folds": 3,
+  "gate_min_mean_relative_gain": 0.002,
+  "gate_max_fold_relative_loss": 0.01,
+  "gate_mean_relative_gain": -0.044924229150637984,
+  "gate_worst_relative_gain": -0.16419605910778046,
+  "device": "cpu"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "GW12_rectified_h",
+  "rna": "/cluster3/labData/jiamao/SpaRegVision/GW12/rectified_h/GW12_spatial_RNA_rectangle_H_2dwarp_linear_101x76.h5ad",
+  "atac": "/cluster3/labData/jiamao/SpaRegVision/GW12/rectified_h/GW12_spatial_ATAC_rectangle_H_2dwarp_linear_101x76.h5ad",
+  "links": "/cluster3/labData/jiamao/SpaRegVision/GW12/region_to_gene_adj.tsv",
+  "genes_requested": [
+    "LPA",
+    "TRHDE",
+    "SVIL",
+    "CSF1R",
+    "CCDC158"
+  ],
+  "genes_analyzed": [
+    "LPA",
+    "TRHDE",
+    "SVIL",
+    "CSF1R",
+    "CCDC158"
+  ],
+  "top_k": 20,
+  "permutations": 99,
+  "seed": 20260814,
+  "atac_memmap": "/tmp/gw12_rectified_h_atac_log1p_float32_transposed.memmap",
+  "thresholds": {
+    "core": 0.35,
+    "regional_local": 0.2,
+    "evidence": 0.005,
+    "qvalue": 0.1
+  },
+  "shape": [
+    76,
+    101
+  ],
+  "n_observations": 7676
+}

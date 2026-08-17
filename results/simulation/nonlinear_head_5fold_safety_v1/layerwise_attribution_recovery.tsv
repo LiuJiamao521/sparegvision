@@ -1,0 +1,11 @@
+run	scenario	fold	logit_recovery	coefficient_recovery	contribution_recovery	logit_bce
+spatial_complementary_seed20260984_fold0	spatial_complementary	0	-0.15171174361658557	-0.47426548854226147	-0.2912570703873904	0.6872590184211731
+spatial_complementary_seed20260984_fold1	spatial_complementary	1	-0.15171174361658557	-0.47426548854226147	-0.2912570703873904	0.6872590184211731
+spatial_complementary_seed20260984_fold2	spatial_complementary	2	-0.15171174361658557	-0.47426548854226147	-0.2912570703873904	0.6872590184211731
+spatial_complementary_seed20260984_fold3	spatial_complementary	3	-0.15171174361658557	-0.47426548854226147	-0.2912570703873904	0.6872590184211731
+spatial_complementary_seed20260984_fold4	spatial_complementary	4	-0.15171174361658557	-0.47426548854226147	-0.2912570703873904	0.6872590184211731
+unrelated_missing_factor_seed20260984_fold0	unrelated_missing_factor	0				0.12772776186466217
+unrelated_missing_factor_seed20260984_fold1	unrelated_missing_factor	1				0.12772776186466217
+unrelated_missing_factor_seed20260984_fold2	unrelated_missing_factor	2				0.12772776186466217
+unrelated_missing_factor_seed20260984_fold3	unrelated_missing_factor	3				0.12772776186466217
+unrelated_missing_factor_seed20260984_fold4	unrelated_missing_factor	4				0.12772776186466217

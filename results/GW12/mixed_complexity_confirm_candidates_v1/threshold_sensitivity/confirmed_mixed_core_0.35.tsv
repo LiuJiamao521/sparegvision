@@ -1,0 +1,4 @@
+gene	n_enhancers	n_core	n_regional_candidates	n_unsupported	n_supported_domains	regional_evidence_topk_sum	domain_diversity	complexity_score	core_threshold	mixed_complexity_score	threshold_rank
+PTN	20	16	3	1	1	0.0511974912145274	0.0	0.07097479337418447	0.35	0.20514353829125861	1
+VIM	20	2	6	12	1	0.041926422633021904	0.0	0.08158505131517971	0.35	0.11310089658991054	2
+SPARCL1	20	6	1	13	1	0.0071164687436425	0.0	0.004932760245198775	0.35	0.010257386569013146	3

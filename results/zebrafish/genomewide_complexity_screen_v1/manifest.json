@@ -1,0 +1,22 @@
+{
+  "dataset": "zebrafish_weMERFISH_6s_E1",
+  "n_cells_total": 22475,
+  "n_cells_valid_3d": 22281,
+  "n_cells_excluded_invalid_3d": 194,
+  "n_genes": 458,
+  "n_enhancer_rows": 8908,
+  "top_k": 20,
+  "spatial_domains": "KMeans on standardized 3D spatial_rescaled_z",
+  "n_domains": 6,
+  "domain_sizes": [
+    2781,
+    5502,
+    5263,
+    2517,
+    2867,
+    3351
+  ],
+  "seed": 20260814,
+  "stage": "screen_without_spatial_permutation",
+  "requires_confirmatory_permutation": true
+}

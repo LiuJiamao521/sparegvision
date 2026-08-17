@@ -1,0 +1,14 @@
+{
+  "dataset": "GW12_rectified_h",
+  "stage": "genomewide_screen_without_permutation",
+  "n_genes": 200,
+  "n_enhancer_rows": 3990,
+  "top_k": 20,
+  "thresholds": {
+    "core": 0.35,
+    "regional_local": 0.2,
+    "evidence": 0.005
+  },
+  "domain_layout": "2x3_grid",
+  "requires_confirmatory_permutation": true
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sparegvision"
+version = "1.0.0"
+description = "Spatially resolved multi-enhancer regulatory complexity and attribution"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.23", "pandas>=1.5", "scipy>=1.9", "scikit-learn>=1.1",
+  "anndata>=0.9", "matplotlib>=3.6"
+]
+
+[project.scripts]
+sparegvision = "sparegvision.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sparegvision*"]

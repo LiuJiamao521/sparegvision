@@ -1,0 +1,2 @@
+gene	n_enhancers	n_core	n_regional_candidates	n_unsupported	n_supported_domains	regional_evidence_topk_sum	domain_diversity	complexity_score
+sim_gene	20	10	5	5	5	1.9697091934054813	1.0000000000000002	7.058490197819651

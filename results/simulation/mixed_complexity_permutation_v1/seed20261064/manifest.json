@@ -1,0 +1,9 @@
+{
+  "scenario": "mixed_regulatory_complexity",
+  "seed": 20261064,
+  "regional_average_precision": 1.0,
+  "regional_precision": 1.0,
+  "regional_recall": 1.0,
+  "regional_false_discovery_rate": 0.0,
+  "core_recall": 1.0
+}

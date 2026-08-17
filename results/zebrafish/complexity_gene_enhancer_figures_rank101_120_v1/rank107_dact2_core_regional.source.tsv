@@ -1,0 +1,3 @@
+gene	enhancer	enhancer_index	global_concordance	max_regional_concordance	best_domain	local_advantage	regional_specificity	regional_evidence_score	predicted_class	screen_only	permutation_pvalue	permutation_qvalue	initial_spearman_rho	link_pvalue	plot_class	label	chrom	start	end	center
+dact2	13-43435206-43435706	0	0.4533087563726932	0.4070464171163818	2	-0.0462623392563114	0.176155970717471	0.0	core_concordant	True	0.01	0.0999999999999999	0.5128684256815175	0.0	core	C1	chr13	43435206	43435706	43435456
+dact2	13-43459366-43459866	14	0.1149703536807459	0.3028068858310894	0	0.1878365321503435	0.2569043511059614	0.0146122558673797	regional_candidate	True	0.015	0.0999999999999999	0.1486691459048505	1.5240416439209234e-111	regional	R1	chr13	43459366	43459866	43459616

@@ -1,0 +1,8 @@
+{
+  "n_models": 3,
+  "mean_pairwise_map_correlation": 0.921834408376475,
+  "min_pairwise_map_correlation": 0.8802824901293461,
+  "mean_dominant_agreement": 0.9669540229885057,
+  "mean_truth_recovery": 0.06403692963177073,
+  "all_gates_enabled": false
+}

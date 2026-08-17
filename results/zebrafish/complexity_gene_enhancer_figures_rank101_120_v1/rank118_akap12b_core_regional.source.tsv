@@ -1,0 +1,3 @@
+gene	enhancer	enhancer_index	global_concordance	max_regional_concordance	best_domain	local_advantage	regional_specificity	regional_evidence_score	predicted_class	screen_only	permutation_pvalue	permutation_qvalue	initial_spearman_rho	link_pvalue	plot_class	label	chrom	start	end	center
+akap12b	20-26399729-26400229	4	0.113775520028148	0.3978197605893843	2	0.2840442405612362	0.4150847011822594	0.0469039119864696	regional_candidate	True	0.01	0.1	0.1640771645182204	1.0811202543388916e-135	regional	R1	chr20	26399729	26400229	26399979
+akap12b	20-26502481-26502981	2	0.2021915667413604	0.3607958774751965	3	0.158604310733836	0.1763388869184761	0.0100907779283745	regional_candidate	True	0.005	0.1	0.1786590880264189	7.394217222561568e-161	regional	R2	chr20	26502481	26502981	26502731

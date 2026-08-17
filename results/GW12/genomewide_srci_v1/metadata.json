@@ -1,0 +1,10 @@
+{
+  "n_genes": 15038,
+  "n_positive_srci": 17,
+  "elbow_rank": 2,
+  "elbow_gene": "MSX1",
+  "n_confirmed_mixed_strict": 2,
+  "n_genes_with_permutation": 17,
+  "permutations": 99,
+  "confirmation_scope": "all genes capable of non-zero SRCI in the genome-wide screen"
+}

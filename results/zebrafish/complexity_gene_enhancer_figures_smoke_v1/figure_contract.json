@@ -1,0 +1,15 @@
+{
+  "claim": "high-complexity genes combine globally concordant core enhancers with spatially restricted regional enhancers",
+  "archetype": "image plate + quant",
+  "formats": [
+    "png",
+    "pdf"
+  ],
+  "core_threshold": 0.35,
+  "regional_q_threshold": 0.1,
+  "spatial_views": [
+    "XY",
+    "XZ"
+  ],
+  "normalization": "per-feature log1p and positive p99 clipping"
+}

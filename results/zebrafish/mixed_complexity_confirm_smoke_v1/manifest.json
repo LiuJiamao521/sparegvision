@@ -1,0 +1,14 @@
+{
+  "dataset": "zebrafish_weMERFISH_6s_E1",
+  "n_genes": 2,
+  "genes": [
+    "foxa3",
+    "xbp1"
+  ],
+  "top_k": 20,
+  "n_domains": 6,
+  "permutations": 19,
+  "seed": 20260814,
+  "null": "3D toroidal coordinate shift followed by periodic nearest-neighbor mapping",
+  "multiple_testing": "BH within each gene across candidate enhancers"
+}

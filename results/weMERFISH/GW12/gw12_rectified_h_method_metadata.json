@@ -1,0 +1,26 @@
+{
+  "analysis": "GW12 rectified_h same scoring framework as current weMERFISH summary, but using GW12 rectified_h data and original region_to_gene_adj links",
+  "rna_path": "/cluster3/labData/jiamao/SpaRegVision/GW12/rectified_h/GW12_spatial_RNA_rectangle_H_2dwarp_linear_101x76.h5ad",
+  "atac_path": "/cluster3/labData/jiamao/SpaRegVision/GW12/rectified_h/GW12_spatial_ATAC_rectangle_H_2dwarp_linear_101x76.h5ad",
+  "link_path": "/cluster3/labData/jiamao/SpaRegVision/GW12/region_to_gene_adj.tsv",
+  "cache_path": "/tmp/gw12_rectified_h_atac_log1p_float32.memmap",
+  "n_genes_considered": 15038,
+  "n_genes_rank_eligible": 108,
+  "n_enhancer_rows": 1992,
+  "initial_rho_threshold": 0.0,
+  "rectified_raw_rho_threshold": 0.1,
+  "min_enhancers_for_gene_rank": 5,
+  "latent_mask": {
+    "input": "log1p RNA on rectified_h 101x76 grid",
+    "normalization": "min-max",
+    "state_fit": "two-state quantile-initialized iterative fit",
+    "regularization": "3 rounds of 3x3 majority voting, threshold=5"
+  },
+  "enhancer_score": "difference_structure_score = 0.4*diff + 0.25*logfc + 0.35*residual",
+  "gene_absolute_score": "0.6*median_difference_structure_score + 0.4*top3_mean_difference_structure_score",
+  "outputs": {
+    "gene_tsv": "/cluster2/huanglab/jiamao/Project/SpaRegVision/results/weMERFISH/GW12/gw12_rectified_h_gene_divergence.tsv",
+    "absolute_tsv": "/cluster2/huanglab/jiamao/Project/SpaRegVision/results/weMERFISH/GW12/gw12_rectified_h_gene_divergence_absolute.tsv",
+    "enhancer_tsv": "/cluster2/huanglab/jiamao/Project/SpaRegVision/results/weMERFISH/GW12/gw12_rectified_h_enhancer_divergence.tsv"
+  }
+}

@@ -1,0 +1,15 @@
+seed: 20260723
+pixel_size: 30.0
+scales: [0.0, 1.0, 2.0]
+scale_weights: [0.2, 0.4, 0.4]
+candidate_top_k: 20
+max_genes: 20000
+gene_start: 0
+gene_end: 20000
+domain_only: true
+domain_compute_gsps: true
+domain_activity_quantile: 0.80
+domain_min_spots: 25
+domain_max_domains: 2
+domain_enrichment_threshold: 0.05
+max_features_per_batch: 256

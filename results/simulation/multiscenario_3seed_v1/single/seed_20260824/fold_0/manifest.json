@@ -1,0 +1,13 @@
+{
+  "scenario": "single",
+  "seed": 20260824,
+  "shape": [
+    24,
+    32
+  ],
+  "best_epoch": 59,
+  "best_validation_loss": 0.0009791792836040258,
+  "test_fold": 0,
+  "spatial_strength": 0.0,
+  "device": "cpu"
+}

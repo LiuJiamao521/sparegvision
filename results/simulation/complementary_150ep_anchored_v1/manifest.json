@@ -1,0 +1,11 @@
+{
+  "scenario": "complementary",
+  "seed": 20260814,
+  "shape": [
+    24,
+    32
+  ],
+  "best_epoch": 149,
+  "best_validation_loss": 0.01718709245324135,
+  "device": "cpu"
+}
